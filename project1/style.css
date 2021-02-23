@@ -1,0 +1,18 @@
+
+html {
+	background-image: url("https://screenshots.gamebanana.com/img/ss/gamefiles/5c2d22831628a.webp");
+	cursor: url("cursor.png"), auto;
+}
+		
+p, h1, h2, h3, h4, ol {
+	color: white;
+			
+}
+
+a {
+	font-family: 'Rajdhani', sans-serif;
+}
+		
+a:visited {
+	color: rgba( 0, 255, 0, 255 );		
+}
