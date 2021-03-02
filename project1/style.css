@@ -1,8 +1,82 @@
 
-html {
-	background-image: url("https://screenshots.gamebanana.com/img/ss/gamefiles/5c2d22831628a.webp");
-	cursor: url("cursor.png"), auto;
+body {
+	background-color: lightblue;
+	margin: 0;
 }
+
+
+.parallax-container {
+	position: fixed;
+	
+	width: 100%;
+	height: 100%;
+}
+
+.parallax-layer {
+	
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-position: bottom center;
+	background-repeat: repeat-x;
+	background-size: 100% 100%;;
+	
+}
+
+
+.layer-1 {
+	top: 100px;
+	z-index: 5;
+	background-image: url( 'img/1.png' );
+}
+
+.layer-2 {
+	height: 110%;
+	top: 100px;
+	z-index: 10;
+	background-image: url( 'img/2.png' );
+}
+
+.layer-3 {
+	height: 110%;
+	top: 200px;
+	z-index: 15;
+	background-image: url( 'img/3.png' );
+}
+
+.layer-4 {
+	
+	top: 600px;
+	z-index: 20;
+	background-image: url( 'img/4.png' );
+}
+
+.layer-5 {
+	top: 500px;
+	z-index: 25;
+	background-image: url( 'img/5.png' );
+}
+
+
+.content {
+  position: absolute;
+  top: 1080px;
+  background: #415a6c;
+  width: 100%;
+  min-height: 1500px;
+}
+  .content h1 {
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+
+
+
 		
 p, h1, h2, h3, h4, ol {
 	color: white;
