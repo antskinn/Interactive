@@ -61,6 +61,8 @@ body {
 
 
 .content {
+ 
+
   position: absolute;
   top: 1080px;
   background: #415a6c;
@@ -72,6 +74,19 @@ body {
     font-size: 2em;
     text-transform: uppercase;
     text-align: center;
+  }
+  
+  .content h2 {
+		 text-align: center;
+	  
+	  
+  }
+  
+  .content p {
+
+		 margin: 2%
+	  
+	  
   }
 
 
