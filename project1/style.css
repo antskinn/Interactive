@@ -78,25 +78,21 @@ body {
   
   .content h2 {
 		 text-align: center;
-	  
+		 color: white;
 	  
   }
   
   .content p {
 
 		 margin: 2%
-	  
+		 color: white;
 	  
   }
 
 
 
 
-		
-p, h1, h2, h3, h4, ol {
-	color: white;
-			
-}
+
 
 a {
 	font-family: 'Rajdhani', sans-serif;
