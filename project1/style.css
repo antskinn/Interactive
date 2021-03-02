@@ -4,6 +4,17 @@ body {
 	margin: 0;
 }
 
+img {
+
+	width: 60%;
+	height: 60%;
+	margin: 5%;
+}
+
+.imgdiv {
+
+	text-align: center;
+}
 
 .parallax-container {
 	position: fixed;
