@@ -36,73 +36,73 @@ img {
 	
 }
 
-
+/*
 .layer-1 {
 	top: 100px;
 	z-index: 5;
-	background-image: url( 'img/vertica/1.png' );
+	background-image: url( 'img/horizon/1.png' );
 }
 
 .layer-2 {
 	height: 110%;
 	top: 100px;
 	z-index: 10;
-	background-image: url( 'img/vertica/2.png' );
+	background-image: url( 'img/horizon/2.png' );
 }
 
 .layer-3 {
 	height: 110%;
 	top: 200px;
 	z-index: 15;
-	background-image: url( 'img/vertica/3.png' );
+	background-image: url( 'img/horizon/3.png' );
 }
 
 .layer-4 {
 	
 	top: 600px;
 	z-index: 20;
-	background-image: url( 'img/vertica/4.png' );
+	background-image: url( 'img/horizon/4.png' );
 }
 
 .layer-5 {
 	top: 500px;
 	z-index: 25;
-	background-image: url( 'img/vertica/5.png' );
+	background-image: url( 'img/horizon/5.png' );
 }
+*/
 
 
-
-.layer-2-1 {
+.layer-1 {
 	position: fixed;
-	top: 1080px;
-	z-index: 105;
+	top: 0px;
+	z-index: 5;
 	background-image: url( 'img/horizon/1.png' );
 }
 
-.layer-2-2 {
+.layer-2 {
 	height: 110%;
-	top: 1180px;
-	z-index: 110;
+	top: 100px;
+	z-index: 10;
 	background-image: url( 'img/horizon/2.png' );
 }
 
-.layer-2-3 {
+.layer-3 {
 	height: 110%;
-	top: 1485px;
-	z-index: 115;
+	top: 405px;
+	z-index: 15;
 	background-image: url( 'img/horizon/3.png' );
 }
 
-.layer-2-4 {
+.layer-4 {
 	
-	top: 1680px;
-	z-index: 120;
+	top: 600px;
+	z-index: 20;
 	background-image: url( 'img/horizon/4.png' );
 }
 
-.layer-2-5 {
-	top: 1580px;
-	z-index: 125;
+.layer-5 {
+	top: 500px;
+	z-index: 25;
 	background-image: url( 'img/horizon/5.png' );
 }
 
@@ -114,7 +114,7 @@ img {
   top: 1080px;
   background: #415a6c;
   width: 100%;
-  
+  min-height: 1500px;
 }
   .content h1 {
     color: #fff;
@@ -132,7 +132,9 @@ img {
   .content p {
 
 		 margin: 2%
- 
+		 
+	  
+	  
   }
 
 
@@ -145,12 +147,10 @@ p, h1, h2, h3, h4, ol {
 }
 
 a {
-	text-align: center;
 	font-family: 'Rajdhani', sans-serif;
 }
 		
 a:visited {
-	text-align: center;
 	color: rgba( 0, 255, 0, 255 );		
 }
 

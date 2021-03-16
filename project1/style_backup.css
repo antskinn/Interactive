@@ -23,6 +23,14 @@ img {
 	height: 100%;
 }
 
+.parallax-container-2 {
+	top: 99%;
+	/*position: fixed;*/
+	
+	width: 100%;
+	height: 100%;
+}
+
 .parallax-layer {
 	
 	width: 100%;
@@ -30,9 +38,9 @@ img {
 	position: fixed;
 	left: 0;
 	top: 0;
-	background-position: bottom center;
+	background-position: top center;
 	background-repeat: repeat-x;
-	background-size: 100% 100%;;
+	background-size: 100% 100%;
 	
 }
 
@@ -41,6 +49,7 @@ img {
 	top: 100px;
 	z-index: 5;
 	background-image: url( 'img/vertica/1.png' );
+	
 }
 
 .layer-2 {
@@ -48,6 +57,7 @@ img {
 	top: 100px;
 	z-index: 10;
 	background-image: url( 'img/vertica/2.png' );
+	
 }
 
 .layer-3 {
@@ -55,6 +65,7 @@ img {
 	top: 200px;
 	z-index: 15;
 	background-image: url( 'img/vertica/3.png' );
+	
 }
 
 .layer-4 {
@@ -62,59 +73,70 @@ img {
 	top: 600px;
 	z-index: 20;
 	background-image: url( 'img/vertica/4.png' );
+	
 }
 
 .layer-5 {
 	top: 500px;
 	z-index: 25;
 	background-image: url( 'img/vertica/5.png' );
+	
 }
+
+
+
+
 
 
 
 .layer-2-1 {
-	position: fixed;
-	top: 1080px;
-	z-index: 105;
+	top: 100px;
+	z-index: 5;
 	background-image: url( 'img/horizon/1.png' );
+	
 }
 
 .layer-2-2 {
 	height: 110%;
-	top: 1180px;
-	z-index: 110;
+	top: 100px;
+	z-index: 10;
 	background-image: url( 'img/horizon/2.png' );
+	
 }
 
 .layer-2-3 {
 	height: 110%;
-	top: 1485px;
-	z-index: 115;
+	top: 200px;
+	z-index: 15;
 	background-image: url( 'img/horizon/3.png' );
+	
 }
 
 .layer-2-4 {
 	
-	top: 1680px;
-	z-index: 120;
+	top: 600px;
+	z-index: 20;
 	background-image: url( 'img/horizon/4.png' );
+	
 }
 
 .layer-2-5 {
-	top: 1580px;
-	z-index: 125;
+	top: 500px;
+	z-index: 25;
 	background-image: url( 'img/horizon/5.png' );
+	
 }
+
 
 
 .content {
  
-  z-index: 1000;
-  position: absolute;
+
+  position: fixed;
   top: 1080px;
   background: #415a6c;
   width: 100%;
-  
+  min-height: 1500px;
 }
   .content h1 {
     color: #fff;
@@ -132,7 +154,9 @@ img {
   .content p {
 
 		 margin: 2%
- 
+		 
+	  
+	  
   }
 
 
@@ -145,19 +169,9 @@ p, h1, h2, h3, h4, ol {
 }
 
 a {
-	text-align: center;
 	font-family: 'Rajdhani', sans-serif;
 }
 		
 a:visited {
-	text-align: center;
 	color: rgba( 0, 255, 0, 255 );		
 }
-
-  .content a {
-
-		display: block;
-		text-align: center;
-		padding: 2%;
- 
-  }
