@@ -1,0 +1,9 @@
+
+{ 
+ "manifest_version": 2,
+ "name": "BrowserBuddy",
+ "description": "An interactive pal!",
+ "version": "1",
+ "author": "Anthony Skinner",
+ "browser_action": {  "default_popup": "popup.html" }
+}

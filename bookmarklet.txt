@@ -1,0 +1,20 @@
+javascript:(function(){
+var content = document.body.innerHTML;
+
+
+var new_content = content.replace(/the/g, "whale");
+new_content = new_content.replace(/is/g, "cat");
+new_content = new_content.replace(/and/g, "twinkie");
+
+document.body.innerHTML = new_content;
+
+
+
+
+var images = document.getElementsByTagName("img");
+
+for (var x = 0; x < images.length; x++) {
+    images[x].setAttribute("src", "https://cdn.shopify.com/s/files/1/0052/6198/3830/products/Sapphire_Queen_Poster_1024x1024@2x.png?v=1589705845");
+  };
+  
+  })();

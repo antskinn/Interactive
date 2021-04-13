@@ -1,0 +1,74 @@
+
+body {
+
+	background-color: white;
+	
+	margin-top: 0%;
+	
+	text-align: center;
+	
+	
+}
+
+h1, h2 {
+	
+	font-family: Impact;
+	
+}
+
+
+#user1 {
+	
+	color: red;
+	
+}
+
+#user2 {
+	
+	color: blue;
+	
+}
+
+img {
+
+margin: 0%;
+display: inline;
+float: left;
+width: 33.33%;
+	
+}
+
+#description {
+
+position: absolute;
+font-weight: bold;
+width: 30%;
+top: 20%;
+right: 2%;
+	
+}
+
+#description2 {
+
+position: absolute;
+font-weight: bold;
+width: 30%;
+top: 25%;
+left: 2%;
+	
+}
+
+
+
+
+
+
+
+
+a {
+	font-family: 'Rajdhani', sans-serif;
+}
+		
+a:visited {
+	color: rgba( 0, 255, 0, 255 );		
+}

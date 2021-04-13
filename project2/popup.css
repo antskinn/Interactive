@@ -1,0 +1,95 @@
+
+html { 
+
+	width: 300px;
+	height: 175px;
+
+ }
+
+body { 
+
+	margin: 0;
+	width: 300px;
+	height: 175px;
+	
+
+ }
+ 
+ #errormsg {
+	 
+color: red;	 
+	 
+ }
+ 
+ .page1 {
+		
+display: none;
+
+ }
+ 
+ ol {
+	
+	padding: 5%;
+	list-style: none;
+	 
+ }
+ 
+ #chattexts {
+	 
+	 width: 300px;
+	 height: 121px;
+	 position: fixed;
+	 overflow-x: hidden;
+	 overflow-y: auto;
+ }
+ 
+ .chatbox {
+	 
+	width: 210px;
+	height: 40px;
+	
+	position: fixed;	
+	bottom: 14px;
+	
+	left: 7px;
+	right: 7px;
+
+ }
+ 
+ #enterchat {
+	
+	resize: none;
+	box-sizing:border-box;
+	width: 100%;
+	height: 100%;
+
+ }
+ 
+ #sendbutton {
+	 
+	width: 100%;
+	height: 100%;
+ }
+ 
+ .flex-container{
+	
+	width: 286px;
+	display: flex;
+
+ }
+ 
+ .flex-child {
+	 
+	 flex-grow: 1;
+	 
+	 
+	 
+ }
+ 
+ #user1msg {
+
+	color: red;
+	 
+ }
+ 
+ 

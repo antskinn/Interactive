@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  
+	<head>
+		<title>Test</title>
+		<link type="text/css" rel="stylesheet" href="popup.css" media="all">
+		<script src="peerjs.min.js"></script>
+		<script src="popup.js"></script>
+		
+		<div id="user1msg"></div>
+	</head>
+	
+	<body>
+	
+		<div class="page1">
+			<h1>1on1</h1>
+			<a href="popup2.html">Test link for page 2</a>
+			<p>Please input your friend's ID: </p>
+			<input type="text" id="friendID" name="friendID">
+			<input type="submit" id="gobutton" value="Go">
+			<br>
+			<p id="errormsg"></p>
+			<br>
+			<p id="yourID">Or give them yours: </p>
+		</div>
+		
+		<div class="page2">
+		
+			<div id="chattexts">
+			<ol id="chatlist">
+			<li><p> Bot: you werent supposed to find this app </p></li>
+			<li><p> Bot: but we like to play a game with those who do </p></li>
+
+			</ol>
+			</div>
+			
+			<div class="chatbox">
+			
+				
+				
+				<div class="flex-container">
+				
+					<div class="flex-child 1">
+						<textarea id="enterchat" name="enterchat"></textarea>
+					</div>
+					
+					<div class="flex-child 2">
+						<input type="submit" id="sendbutton" value="Send">
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+	</body>
+
+</html>
