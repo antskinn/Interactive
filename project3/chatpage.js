@@ -10,7 +10,8 @@ function lerp( val1, val2, amt )
 
 var d = new Date();
 var hour = d.getHours()
-//var hour = 15;
+var hour = 15;
+
 var lerpValue = hour / 23;
 var lerpColor = lerp( 0, 255, lerpValue );
 document.body.style.backgroundColor = 'rgb('+
