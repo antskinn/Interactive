@@ -1,9 +1,12 @@
 
 { 
  "manifest_version": 2,
- "name": "BrowserBuddy",
+ "name": "1on1",
  "description": "An interactive pal!",
  "version": "1",
  "author": "Anthony Skinner",
- "browser_action": {  "default_popup": "popup.html" }
+ "browser_action": {  "default_popup": "popup.html" },
+ "permissions": [
+    "tabs"
+  ]
 }

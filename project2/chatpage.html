@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  
+	<head>
+		<title>Test</title>
+		<link type="text/css" rel="stylesheet" href="chatpage.css" media="all">
+		<script src="peerjs.min.js"></script>
+		<script src="chatpage.js"></script>
+		
+		<div id="user1msg"></div>
+		<p>
+			Have a chat in this tab while you browse the web with friends, send them addresses
+			of whatever pages you're currently viewing, or use this as a research
+			portal and play "webmaster" as you guide each other across the internet!
+			This is great for homework, sharing news, or just chatting it up.
+		</p>
+	</head>
+	
+	<body>
+	
+		<div id="page1">
+			<h1>1on1</h1>
+			<a href="popup2.html">Test link for page 2</a>
+			<p>Please input your friend's ID: </p>
+			<input type="text" id="friendID" name="friendID">
+			<input type="submit" id="gobutton" value="Go">
+			<br>
+			<p id="errormsg"></p>
+			<br>
+			<p id="yourID">Or give them yours: </p>
+		</div>
+		
+		<div id="page2">
+		
+			<div id="chattexts">
+			<ol id="chatlist">
+			<li><p></p></li>
+			<li><p></p></li>
+
+			</ol>
+			</div>
+			
+			
+			<div class="chatbox">
+			
+				
+				
+				<div class="flex-container">
+				
+					<div class="flex-child 1">
+						<textarea id="enterchat" name="enterchat"></textarea>
+					</div>
+					
+					<div class="flex-child 2">
+						<input type="submit" id="sendbutton" value="Send">
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+	</body>
+
+</html>
