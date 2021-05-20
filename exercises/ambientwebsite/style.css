@@ -1,0 +1,9 @@
+
+body {
+	background-image: url("img/club.png");
+}
+
+.framecontainer {
+	position: fixed;
+	top: 40%;
+}	
