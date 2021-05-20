@@ -1,0 +1,32 @@
+
+body {
+	color: rgba( 255, 249, 171, 255 );
+	background-color: brown;
+	margin: 20%;
+	margin-top: 0%;
+	
+	text-align: center;
+	
+}
+
+
+
+
+
+
+
+
+
+		
+h1, h2, h3, h4, ol {
+	color: white;
+			
+}
+
+a {
+	font-family: 'Rajdhani', sans-serif;
+}
+		
+a:visited {
+	color: rgba( 0, 255, 0, 255 );		
+}
